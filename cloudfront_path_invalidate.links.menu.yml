@@ -1,0 +1,16 @@
+cloudfront_path_invalidate.admin:
+  title: 'AWS CDN Invalidation Menu'
+  description: 'To invalidate single path'
+  parent: system.admin_config_development
+  expanded: 1
+  route_name: cloudfront_path_invalidate.invalidate
+  weight: 100
+  type: MENU_LOCAL_TASK
+cloudfront_path_invalidate.admin2:
+  title: 'AWS CDN Keys settings Menu'
+  description: 'Setup Keys for AWS CDN'
+  parent: system.admin_config_development
+  expanded: 1
+  route_name: cloudfront_path_invalidate.cdnkeys
+  weight: 99
+  type: MENU_LOCAL_TASK

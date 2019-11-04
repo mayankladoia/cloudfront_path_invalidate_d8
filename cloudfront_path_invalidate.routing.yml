@@ -1,0 +1,16 @@
+cloudfront_path_invalidate.invalidate:
+  path: '/admin/config/cloudfront_path_invalidate_settings/PathInvalidation'
+  defaults:
+    _form: \Drupal\cloudfront_path_invalidate\Form\CloudfrontPathInvalidateForm
+    _title: 'AWS CDN Invalidation Routing'
+    title: 'AWS CDN Invalidation Routing'
+  requirements:
+    _permission: 'administer site configuration'
+cloudfront_path_invalidate.cdnkeys:
+  path: '/admin/config/cloudfront_path_invalidate_settings/CDNKeys'
+  defaults:
+    _form: \Drupal\cloudfront_path_invalidate\Form\CloudfrontCDNKeysForm
+    _title: 'AWS CDN Keys settings Routing'
+    title: 'AWS CDN Invalidation Routing'
+  requirements:
+    _permission: 'administer site configuration'

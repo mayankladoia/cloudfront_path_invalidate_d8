@@ -1,0 +1,14 @@
+name: CloudFront Path Invalidate
+description: Contains hooks for invalidation of paths on AWS cloudfront CDN
+package: Custom
+
+core: 8.x
+type: module
+php: 5.6
+
+dependencies:
+ - path
+ - token
+ - pathauto
+ 
+configure: cloudfront_path_invalidate.settings
